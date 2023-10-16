@@ -10,6 +10,31 @@ Idefics-9b-Instruct is a text generation model. You can use this template to imp
 - **Curl**. You would need Curl if you want to make API calls from the terminal itself.
 
 ---
+
+## TODO Images
+
+```
+{
+   "inputs":[
+   {    
+    "name": "prompt",
+    "shape": [1],
+    "datatype": "BYTES",
+    "data":  ["Face of a yellow cat, high resolution, sitting on a park bench"]
+   },
+   {    
+    "name": "image_url",
+    "shape": [1],
+    "datatype": "BYTES",
+    "data":  ["https://raw.githubusercontent.com/CompVis/latent-diffusion/main/data/inpainting_examples/overture-creations-5sI6fQgYIuo.png"]
+   },
+   {    
+    "name": "control_url",
+    "shape": [1],
+    "datatype": "BYTES",
+    "data":  ["https:
+```
+
 ## Quick Start
 Here is a quick start to help you get up and running with this template on Inferless.
 
